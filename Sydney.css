@@ -1,0 +1,107 @@
+li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    border: solid  rgb(81, 55, 249) 3px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#s{color: darksalmon;}
+a:hover{
+    color: rgb(12, 144, 252);
+}
+a{
+    color:rgb(119, 178, 246);
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius:  20px; 
+}
+h1{text-align: center;font-family: arial,serif; color: rgb(12, 144, 252); font-size: 50px;}
+body{
+    background-image: url(p.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.W{
+    margin: 0px;
+    margin-bottom: 60px;
+    background-image:url(a.jpeg);
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+}
+.AR{height: 450px}
+.AR p{
+    float: right;            
+    bottom: 200px;
+    word-wrap: break-word;
+    width: 40%;
+    position: relative;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+.AR img{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.BR{
+    padding-bottom:0px;
+    height: 300px;
+}
+.BR p{
+    height: 300px;
+    margin-left: 20px;
+    word-wrap: break-word;
+    width: 40%;
+    font-size: 20px;
+}
+.BR img{             
+    float: right;
+    border-radius: 15px;
+    height: 300px;
+    position: relative; 
+    bottom: 400px;
+    margin-right: 20px;
+}
+video{
+    border-radius: 25px;
+    justify-content: center; 
+    display: flex; 
+    justify-content: center;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    transform: rotate(0deg);
+    height: 300px;
+    margin-top: 50px;
+}
+.acceuil{
+    color:rgb(197, 124, 100);
+    font-family: sans-serif;
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:  20px;
+    font-size: 25px;
+    border: solid  rgb(145, 92, 75)  3px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#retour{
+    color:rgb(197, 124, 100);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
